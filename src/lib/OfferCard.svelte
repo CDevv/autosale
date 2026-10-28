@@ -13,7 +13,7 @@
     </div>
     <p class="text-2xl mt-0.5 mb-0.5">€50</p>
     <button
-        class="bg-amber-700 text-white text-xl rounded-md p-2 min-w-full cursor-pointer hover:bg-amber-800 duration-75"
+        class="bg-amber-600 text-white text-xl rounded-md p-2 min-w-full cursor-pointer hover:bg-amber-500 duration-75"
         >Запитване</button
     >
 </div>

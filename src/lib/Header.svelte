@@ -2,7 +2,7 @@
     import PageButton from "./PageButton.svelte";
 </script>
 
-<div class="bg-amber-400 min-h-18 flex content-center">
+<div class="bg-amber-600 min-h-18 flex content-center">
     <div class="min-h-max flex">
         <a
             href="/"
@@ -13,8 +13,8 @@
     </div>
     <div class="grow min-h-max flex">
         <PageButton href="/" title="Начало"></PageButton>
-        <PageButton href="/" title="Дилъри"></PageButton>
-        <PageButton href="/" title="Коли"></PageButton>
+        <PageButton href="/dealers" title="Дилъри"></PageButton>
+        <PageButton href="/offers" title="Коли"></PageButton>
     </div>
     <PageButton href="/" title="Регистрация"></PageButton>
 </div>
