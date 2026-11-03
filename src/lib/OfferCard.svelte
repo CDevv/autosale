@@ -2,7 +2,7 @@
     import image from "#lib/assets/21764003891272177_bw.webp";
 </script>
 
-<div class="bg-white border-gray-300 min-h-9 border-2 rounded-md p-2">
+<div class="card min-h-9 p-2">
     <h2 class="text-2xl mb-0.5">Колата на Ивайло</h2>
     <div class="h-60 flex justify-center">
         <img
@@ -12,8 +12,5 @@
         />
     </div>
     <p class="text-2xl mt-0.5 mb-0.5">€50</p>
-    <button
-        class="bg-amber-600 text-white text-xl rounded-md p-2 min-w-full cursor-pointer hover:bg-amber-500 duration-75"
-        >Запитване</button
-    >
+    <button class="button duration-75">Запитване</button>
 </div>

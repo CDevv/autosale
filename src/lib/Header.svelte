@@ -15,6 +15,7 @@
         <PageButton href="/" title="Начало"></PageButton>
         <PageButton href="/dealers" title="Дилъри"></PageButton>
         <PageButton href="/offers" title="Коли"></PageButton>
+        <PageButton href="/contact" title="Контакти"></PageButton>
     </div>
-    <PageButton href="/" title="Регистрация"></PageButton>
+    <PageButton href="/register" title="Регистрация"></PageButton>
 </div>

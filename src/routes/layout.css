@@ -4,3 +4,37 @@
     font-family: "Inter";
     src: url("Inter-VariableFont_opsz,wght.ttf");
 }
+
+@layer components {
+    .card {
+        background-color: var(--color-white);
+        border-color: var(--color-gray-300);
+        border-width: 2px;
+        border-radius: var(--radius-md);
+        padding: --spacing(4);
+    }
+    .button {
+        background-color: var(--color-amber-600);
+        color: var(--color-white);
+        font-size: var(--text-xl);
+        line-height: var(--tw-leading, var(--text-xl--line-height));
+        border-radius: var(--radius-md);
+        padding: calc(var(--spacing) * 2);
+        min-width: 100%;
+        cursor: pointer;
+    }
+    .button:hover {
+        background-color: var(--color-amber-500);
+    }
+    .link {
+        color: var(--color-cyan-800);
+    }
+    .link:hover {
+        text-decoration: underline;
+    }
+    .form-item {
+        display: flex;
+        flex-direction: column;
+        gap: var(--spacing);
+    }
+}
