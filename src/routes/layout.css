@@ -22,6 +22,7 @@
         padding: calc(var(--spacing) * 2);
         min-width: 100%;
         cursor: pointer;
+        transition-duration: 75ms;
     }
     .button:hover {
         background-color: var(--color-amber-500);

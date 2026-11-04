@@ -13,6 +13,10 @@
             <input name="email" class="card p-0.5" type="email" />
         </div>
         <div class="form-item">
+            <label for="email" class="text-xl">Телефон</label>
+            <input name="email" class="card p-0.5" type="tel" />
+        </div>
+        <div class="form-item">
             <label for="pass" class="text-xl">Парола</label>
             <input name="pass" class="card p-0.5" type="password" />
         </div>

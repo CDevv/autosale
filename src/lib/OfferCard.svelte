@@ -12,5 +12,5 @@
         />
     </div>
     <p class="text-2xl mt-0.5 mb-0.5">€50</p>
-    <button class="button duration-75">Запитване</button>
+    <a href="/offer" class="button duration-75 inline-block">Разгледай</a>
 </div>

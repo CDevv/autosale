@@ -11,9 +11,12 @@
 
 <br />
 <div class="flex flex-row gap-2">
-    <h1 class="text-3xl mt-0.5 mb-0.5 grow">Последни оферти</h1>
+    <h1 class="text-3xl mt-0.5 mb-0.5 grow">Последни обяви</h1>
     <button class="button max-w-3xs min-w-2xs" onclick={toggleSearch}
         >Търсене</button
+    >
+    <a href="/newoffer" class="button max-w-3xs min-w-2xs text-center"
+        >Пусни обява</a
     >
 </div>
 

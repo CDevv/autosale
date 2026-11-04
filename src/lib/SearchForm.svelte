@@ -22,7 +22,7 @@
 <div {hidden}>
     <div class="card mb-4">
         <div class="form-item">
-            <label for="name" class="text-xl">Име</label>
+            <label for="name" class="text-xl">Модел</label>
             <input name="name" class="card p-0.5" />
         </div>
         <br />
@@ -36,7 +36,7 @@
                     type="range"
                     max={maxVal}
                     value={val}
-                    onchange={onRangeChange}
+                    oninput={onRangeChange}
                 />
                 <input
                     bind:this={numInput}
