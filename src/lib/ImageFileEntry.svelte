@@ -15,12 +15,15 @@
     });
 </script>
 
-<div class="card flex flex-row gap-1">
+<div class="card flex flex-row gap-1 max-h-144">
     <div class="flex flex-col grow max-h-full">
-        <div>
-            <img src={url} alt={file.name} class="max-h-full" />
+        <div class="max-h-full">
+            <img
+                src={url}
+                alt={file.name}
+                class="max-h-full max-w-full object-contain"
+            />
         </div>
-        <p class="text-2xl">{file.name}</p>
     </div>
 
     <button class="button min-w-3xs" onclick={ondelete}>Изтрий</button>

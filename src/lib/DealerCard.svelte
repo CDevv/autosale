@@ -1,4 +1,4 @@
-<div class="border-gray-300 border-2 rounded-md p-4">
+<div class="border-gray-300 bg-white border-2 rounded-md p-4">
     <h2 class="text-2xl">Ивайло</h2>
     <br />
     <a

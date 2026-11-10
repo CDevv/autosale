@@ -2,7 +2,6 @@
     import image from "#lib/assets/21764003891272177_bw.webp";
 </script>
 
-<br />
 <div class="flex flex-row gap-2">
     <h1 class="text-3xl mt-0.5 mb-0.5 grow">Име на обява</h1>
     <a href="/" class="button max-w-3xs min-w-2xs text-center"
@@ -38,4 +37,13 @@
         facere minus blanditiis, modi natus animi quis distinctio, placeat autem
         iste necessitatibus.
     </p>
+</div>
+<br />
+<div class="card flex gap-2">
+    <a
+        class="button"
+        target="_blank"
+        href="https://www.landrover.bg/range-rover/overview"
+        >Официален сайт на производителя</a
+    >
 </div>

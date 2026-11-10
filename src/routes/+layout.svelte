@@ -12,8 +12,18 @@
     <link rel="icon" href={favicon} />
 </svelte:head>
 
-<Header />
-
-<div class="ml-60 mr-60">
-    {@render children()}
+<div id="top">
+    <Header />
+    <div class="ml-60 mr-60 mt-4 mb-4">
+        {@render children()}
+    </div>
 </div>
+
+<style>
+    :global(body) {
+        background-image: url("/niekverlaan-car-718781_1920.png");
+        background-attachment: fixed;
+        background-repeat: repeat-y;
+        font-family: "RobotoCondensed";
+    }
+</style>

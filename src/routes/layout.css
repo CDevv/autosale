@@ -1,8 +1,15 @@
 @import "tailwindcss";
 
+@plugin './icons.mjs';
+
+:global(body) {
+    background-image: url("%sveltekit.assets%/niekverlaan-car-718781_1920.jpg");
+    font-family: "RobotoCondensed";
+}
+
 @font-face {
-    font-family: "Inter";
-    src: url("Inter-VariableFont_opsz,wght.ttf");
+    font-family: "RobotoCondensed";
+    src: url("RobotoCondensed-Regular.ttf");
 }
 
 @layer components {

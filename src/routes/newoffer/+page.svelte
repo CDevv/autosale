@@ -15,7 +15,6 @@
     }
 </script>
 
-<br />
 <h1 class="text-3xl mt-0.5 mb-0.5">Нова обява</h1>
 <br />
 
