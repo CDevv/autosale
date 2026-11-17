@@ -23,7 +23,7 @@
             <span class="icon-[iconoven--comment]"></span> 1
         </div>
     </div>
-    <p>
+    <p class="text-2xl">
         {postDate}
     </p>
 </div>
@@ -32,8 +32,8 @@
 <br />
 <div>
     <div class="card">
-        <h3 class="text-2xl">Автор: Гошо</h3>
-        <p class="text-xl">Не вярвайте на този продавач!</p>
+        <h3 class="text-3xl">Автор: Гошо</h3>
+        <p class="text-2xl">Не вярвайте на този продавач!</p>
         <br />
         <div class="text-2xl flex flex-row gap-2">
             <div>
@@ -43,6 +43,6 @@
                 <span class="icon-[iconoven--comment]"></span> 1
             </div>
         </div>
-        <p>{postDate}</p>
+        <p class="text-2xl">{postDate}</p>
     </div>
 </div>

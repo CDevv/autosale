@@ -21,13 +21,13 @@
 
 <div {hidden}>
     <div class="card mb-4">
-        <div class="form-item">
-            <label for="name" class="text-xl">Модел</label>
+        <div class="form-item text-2xl">
+            <label for="name">Модел</label>
             <input name="name" class="card p-0.5" />
         </div>
         <br />
-        <div class="form-item">
-            <label for="budget" class="text-xl">Бюджет</label>
+        <div class="form-item text-2xl">
+            <label for="budget">Бюджет</label>
             <div class="flex flex-row gap-2">
                 <input
                     bind:this={rangeInput}

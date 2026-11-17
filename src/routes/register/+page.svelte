@@ -1,27 +1,27 @@
 <h1 class="text-3xl mt-0.5 mb-0.5">Регистрация</h1>
 <br />
 
-<div class="flex flex-col justify-center">
+<div class="flex flex-col justify-center text-2xl">
     <div class="max-w-4xl flex justify-center flex-col gap-2">
         <form class="card flex flex-col gap-3">
             <div class="form-item">
-                <label for="name" class="text-xl">Име</label>
+                <label for="name">Име</label>
                 <input name="name" class="card p-0.5" />
             </div>
             <div class="form-item">
-                <label for="email" class="text-xl">Имейл</label>
+                <label for="email">Имейл</label>
                 <input name="email" class="card p-0.5" type="email" />
             </div>
             <div class="form-item">
-                <label for="email" class="text-xl">Телефон</label>
+                <label for="email">Телефон</label>
                 <input name="email" class="card p-0.5" type="tel" />
             </div>
             <div class="form-item">
-                <label for="pass" class="text-xl">Парола</label>
+                <label for="pass">Парола</label>
                 <input name="pass" class="card p-0.5" type="password" />
             </div>
             <div class="form-item">
-                <label for="passrepeat" class="text-xl">Повтори парола</label>
+                <label for="passrepeat">Повтори парола</label>
                 <input name="passrepeat" class="card p-0.5" type="password" />
             </div>
             <div class="form-item">

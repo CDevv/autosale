@@ -19,17 +19,17 @@
 <br />
 
 <div class="flex justify-center flex-col gap-2">
-    <form class="min-w-4xl card flex flex-col gap-3">
+    <form class="min-w-4xl card flex flex-col gap-3 text-2xl">
         <div class="form-item">
-            <label for="name" class="text-xl">Модел</label>
+            <label for="name">Модел</label>
             <input name="name" class="card p-0.5" />
         </div>
         <div class="form-item">
-            <label for="content" class="text-xl">Описание</label>
+            <label for="content">Описание</label>
             <textarea name="content" class="card p-0.5　w-3xs"></textarea>
         </div>
         <div class="form-item">
-            <label for="images" class="text-xl">Снимки</label>
+            <label for="images">Снимки</label>
             <ImageListInput />
         </div>
         <div class="form-item">
