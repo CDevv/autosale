@@ -1,6 +1,5 @@
 @import "tailwindcss";
 
-@plugin './icons.mjs';
 
 :global(body) {
     background-image: url("%sveltekit.assets%/niekverlaan-car-718781_1920.jpg");

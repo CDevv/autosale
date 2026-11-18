@@ -1,3 +1,4 @@
+
 <script lang="ts">
     let { hidden } = $props();
 
@@ -25,7 +26,9 @@
             <label for="name">Модел</label>
             <input name="name" class="card p-0.5" />
         </div>
+
         <br />
+
         <div class="form-item text-2xl">
             <label for="budget">Бюджет</label>
             <div class="flex flex-row gap-2">
@@ -48,9 +51,49 @@
                 />
             </div>
         </div>
+
         <br />
+
+        <!-- Гориво -->
+        <div class="form-item text-2xl">
+            <label for="fuel">Гориво</label>
+            <select
+                id="fuel"
+                name="fuel"
+                class="card p-0.5"
+            >
+                <option value="">Всички</option>
+                <option value="petrol">Бензин</option>
+                <option value="diesel">Дизел</option>
+                <option value="hybrid">Хибрид</option>
+                <option value="electric">Електрически</option>
+            </select>
+        </div>
+
+        <br />
+
+        <!-- Скоростна кутия -->
+        <div class="form-item text-2xl">
+            <label for="transmission">Скоростна кутия</label>
+            <select
+                id="transmission"
+                name="transmission"
+                class="card p-0.5"
+            >
+                <option value="">Всички</option>
+                <option value="manual">Ръчна</option>
+                <option value="automatic">Автоматична</option>
+            </select>
+        </div>
+
+        <br />
+
         <div class="form-item">
-            <input class="button" type="submit" value="Търсене" />
+            <input
+                class="button"
+                type="submit"
+                value="Търсене"
+            />
         </div>
     </div>
 </div>

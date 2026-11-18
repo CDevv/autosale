@@ -1,5 +1,7 @@
 <script lang="ts">
     import moment from "moment";
+    
+    
 
     const postDate = moment().locale("bg").startOf("day").fromNow();
 </script>
