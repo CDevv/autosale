@@ -1,8 +1,9 @@
-
-<header class="w-full bg-gradient-to-r from-orange-700 via-orange-500 to-orange-600 shadow-md">
-
-    <div class="max-w-[1450px] mx-auto h-[64px] flex items-center justify-between gap-4 px-4 md:px-6">
-
+<header
+    class="fixed top-0 w-full bg-gradient-to-r from-orange-700 via-orange-500 to-orange-600 shadow-md z-10"
+>
+    <div
+        class="max-w-[1450px] mx-auto h-16 flex items-center justify-between gap-4 px-4 md:px-6"
+    >
         <!-- Лого -->
         <a
             href="/"
@@ -13,7 +14,6 @@
 
         <!-- Меню -->
         <nav class="hidden lg:flex items-center gap-8 grow ml-1">
-
             <a
                 href="/"
                 class="text-white text-xl font-semibold hover:text-orange-100 transition-colors"
@@ -48,7 +48,6 @@
             >
                 Контакти
             </a>
-
         </nav>
 
         <!-- Регистрация -->
@@ -73,18 +72,16 @@
 
             <span>Регистрация</span>
         </a>
-
     </div>
 
     <!-- Навигация за малки екрани -->
-    <nav class="lg:hidden flex items-center gap-6 overflow-x-auto px-4 pb-3 text-white font-semibold whitespace-nowrap">
-
+    <nav
+        class="lg:hidden flex items-center gap-6 overflow-x-auto px-4 pb-3 text-white font-semibold whitespace-nowrap"
+    >
         <a href="/">Начало</a>
         <a href="/dealers">Дилъри</a>
         <a href="/offers">Обяви</a>
         <a href="/forum">Форум</a>
         <a href="/contact">Контакти</a>
-
     </nav>
-
 </header>

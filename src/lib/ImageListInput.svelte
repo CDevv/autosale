@@ -1,7 +1,9 @@
 <script lang="ts">
     import ImageFileEntry from "#lib/ImageFileEntry.svelte";
+    import { onMount } from "svelte";
 
     let imageFiles: File[] = $state([]);
+    let { input }: { input: HTMLInputElement } = $props();
 
     function onFileChoose(event: any) {
         const elem: HTMLInputElement = event.target;
@@ -12,14 +14,12 @@
             imageFiles.push(file);
         }
     }
+
+    onMount(() => {
+        input.onchange = onFileChoose;
+    });
 </script>
 
-<input
-    class="card p-0.5"
-    type="file"
-    accept=".jpg, .jpeg, .png"
-    onchange={onFileChoose}
-/>
 <div class="flex flex-col gap-2">
     {#each imageFiles as file, index}
         <ImageFileEntry

@@ -1,28 +1,29 @@
-
 <script lang="ts">
-
-
     let message = $state("");
 
     function handleLogin(event: SubmitEvent) {
         event.preventDefault();
 
-        message = "За реално влизане е необходимо да свържеш формата със система за удостоверяване.";
+        message =
+            "За реално влизане е необходимо да свържеш формата със система за удостоверяване.";
     }
 </script>
 
-<div class="max-w-[1400px] mx-auto px-4 md:px-6 py-8 md:py-12">
+<svelte:head>
+    <title>Autosale.bg - Влизане</title>
+</svelte:head>
 
+<div class="px-4 md:px-6 py-8 md:py-12">
     <div class="grid grid-cols-1 lg:grid-cols-5 gap-6 items-stretch">
-
         <!-- ЛЯВА ЧАСТ - ВЛИЗАНЕ -->
-        <section class="lg:col-span-3 bg-white rounded-3xl shadow-2xl border border-gray-100 p-6 sm:p-8 md:p-10">
-
+        <section
+            class="lg:col-span-3 bg-white rounded-3xl shadow-2xl border border-gray-100 p-6 sm:p-8 md:p-10"
+        >
             <!-- ЗАГЛАВИЕ -->
             <div class="flex items-center gap-4 mb-9">
-
-                <div class="w-16 h-16 shrink-0 bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl flex items-center justify-center shadow-lg shadow-orange-500/20">
-
+                <div
+                    class="w-16 h-16 shrink-0 bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl flex items-center justify-center shadow-lg shadow-orange-500/20"
+                >
                     <svg
                         class="w-9 h-9 text-white"
                         xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +38,6 @@
                         <path d="M15 12H3" />
                         <path d="M12 3h6a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3h-6" />
                     </svg>
-
                 </div>
 
                 <div>
@@ -49,15 +49,16 @@
                         Добре дошъл отново в autosale.bg
                     </p>
                 </div>
-
             </div>
 
             <!-- ФОРМА -->
             <form onsubmit={handleLogin} class="flex flex-col gap-6">
-
                 <!-- ИМЕ -->
                 <div>
-                    <label for="login-name" class="block font-bold text-slate-900 mb-2">
+                    <label
+                        for="login-name"
+                        class="block font-bold text-slate-900 mb-2"
+                    >
                         Име
                     </label>
 
@@ -74,7 +75,10 @@
 
                 <!-- ИМЕЙЛ -->
                 <div>
-                    <label for="login-email" class="block font-bold text-slate-900 mb-2">
+                    <label
+                        for="login-email"
+                        class="block font-bold text-slate-900 mb-2"
+                    >
                         Имейл
                     </label>
 
@@ -91,7 +95,10 @@
 
                 <!-- ПАРОЛА -->
                 <div>
-                    <label for="login-pass" class="block font-bold text-slate-900 mb-2">
+                    <label
+                        for="login-pass"
+                        class="block font-bold text-slate-900 mb-2"
+                    >
                         Парола
                     </label>
 
@@ -107,7 +114,10 @@
                 </div>
 
                 {#if message}
-                    <p class="text-sm text-orange-700 bg-orange-50 border border-orange-200 rounded-xl p-3" role="status">
+                    <p
+                        class="text-sm text-orange-700 bg-orange-50 border border-orange-200 rounded-xl p-3"
+                        role="status"
+                    >
                         {message}
                     </p>
                 {/if}
@@ -119,12 +129,12 @@
                 >
                     Влез в профила →
                 </button>
-
             </form>
 
             <!-- РЕГИСТРАЦИЯ -->
-            <div class="mt-8 rounded-2xl bg-orange-50 border border-orange-100 px-5 py-5 text-center">
-
+            <div
+                class="mt-8 rounded-2xl bg-orange-50 border border-orange-100 px-5 py-5 text-center"
+            >
                 <p class="text-slate-700">
                     Нямате профил?
 
@@ -135,44 +145,43 @@
                         Регистрирайте се
                     </a>
                 </p>
-
             </div>
-
         </section>
 
         <!-- ДЯСНА ЧАСТ -->
-        <aside class="lg:col-span-2 relative min-h-[450px] lg:min-h-full overflow-hidden rounded-3xl bg-slate-950 shadow-2xl">
+        <aside
+            class="lg:col-span-2 relative min-h-[450px] lg:min-h-full overflow-hidden rounded-3xl bg-slate-950 shadow-2xl"
+        >
+            <div
+                class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/80 to-slate-900/20"
+            ></div>
 
-
-            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/80 to-slate-900/20"></div>
-
-            <div class="relative z-10 h-full min-h-[450px] flex flex-col justify-between p-8 md:p-10">
-
+            <div
+                class="relative z-10 h-full min-h-[450px] flex flex-col justify-between p-8 md:p-10"
+            >
                 <!-- ЗАГЛАВИЕ -->
                 <div>
-
                     <div class="w-14 h-1 bg-orange-500 rounded-full mb-6"></div>
 
-                    <h2 class="text-3xl md:text-4xl font-black text-white leading-tight">
+                    <h2
+                        class="text-3xl md:text-4xl font-black text-white leading-tight"
+                    >
                         Добре дошъл в
-                        <span class="text-orange-500">
-                            autosale.bg
-                        </span>
+                        <span class="text-orange-500"> autosale.bg </span>
                     </h2>
 
                     <p class="text-lg text-gray-200 leading-relaxed mt-5">
-                        Влез в своя профил и продължи да разглеждаш
-                        автомобилите и обявите.
+                        Влез в своя профил и продължи да разглеждаш автомобилите
+                        и обявите.
                     </p>
-
                 </div>
 
                 <!-- ПРЕДИМСТВА -->
                 <div class="space-y-6 mt-12">
-
                     <div class="flex items-center gap-4">
-
-                        <div class="w-12 h-12 shrink-0 bg-orange-600 rounded-2xl flex items-center justify-center text-2xl">
+                        <div
+                            class="w-12 h-12 shrink-0 bg-orange-600 rounded-2xl flex items-center justify-center text-2xl"
+                        >
                             🚗
                         </div>
 
@@ -185,12 +194,12 @@
                                 Разглеждай предложенията
                             </p>
                         </div>
-
                     </div>
 
                     <div class="flex items-center gap-4">
-
-                        <div class="w-12 h-12 shrink-0 bg-orange-600 rounded-2xl flex items-center justify-center text-2xl">
+                        <div
+                            class="w-12 h-12 shrink-0 bg-orange-600 rounded-2xl flex items-center justify-center text-2xl"
+                        >
                             📝
                         </div>
 
@@ -203,12 +212,12 @@
                                 Добави своя автомобил
                             </p>
                         </div>
-
                     </div>
 
                     <div class="flex items-center gap-4">
-
-                        <div class="w-12 h-12 shrink-0 bg-orange-600 rounded-2xl flex items-center justify-center text-2xl">
+                        <div
+                            class="w-12 h-12 shrink-0 bg-orange-600 rounded-2xl flex items-center justify-center text-2xl"
+                        >
                             💬
                         </div>
 
@@ -221,15 +230,9 @@
                                 Участвай в дискусии
                             </p>
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
-
         </aside>
-
     </div>
-
 </div>

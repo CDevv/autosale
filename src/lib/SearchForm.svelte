@@ -1,4 +1,3 @@
-
 <script lang="ts">
     let { hidden } = $props();
 
@@ -21,7 +20,7 @@
 </script>
 
 <div {hidden}>
-    <div class="card mb-4">
+    <div class="bg-white rounded-2xl shadow-lg border border-gray-100 p-4 mb-4">
         <div class="form-item text-2xl">
             <label for="name">Модел</label>
             <input name="name" class="card p-0.5" />
@@ -57,11 +56,7 @@
         <!-- Гориво -->
         <div class="form-item text-2xl">
             <label for="fuel">Гориво</label>
-            <select
-                id="fuel"
-                name="fuel"
-                class="card p-0.5"
-            >
+            <select id="fuel" name="fuel" class="card p-0.5">
                 <option value="">Всички</option>
                 <option value="petrol">Бензин</option>
                 <option value="diesel">Дизел</option>
@@ -75,11 +70,7 @@
         <!-- Скоростна кутия -->
         <div class="form-item text-2xl">
             <label for="transmission">Скоростна кутия</label>
-            <select
-                id="transmission"
-                name="transmission"
-                class="card p-0.5"
-            >
+            <select id="transmission" name="transmission" class="card p-0.5">
                 <option value="">Всички</option>
                 <option value="manual">Ръчна</option>
                 <option value="automatic">Автоматична</option>
@@ -89,11 +80,7 @@
         <br />
 
         <div class="form-item">
-            <input
-                class="button"
-                type="submit"
-                value="Търсене"
-            />
+            <input class="button" type="submit" value="Търсене" />
         </div>
     </div>
 </div>

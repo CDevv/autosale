@@ -1,6 +1,5 @@
 @import "tailwindcss";
 
-
 :global(body) {
     background-image: url("%sveltekit.assets%/niekverlaan-car-718781_1920.jpg");
     font-family: "RobotoCondensed";
@@ -16,22 +15,22 @@
         background-color: var(--color-white);
         border-color: var(--color-gray-300);
         border-width: 2px;
-        border-radius: var(--radius-md);
+        border-radius: var(--radius-2xl);
         padding: --spacing(4);
     }
     .button {
-        background-color: var(--color-amber-600);
+        background-color: var(--color-orange-600);
         color: var(--color-white);
         font-size: var(--text-xl);
         line-height: var(--tw-leading, var(--text-xl--line-height));
-        border-radius: var(--radius-md);
+        border-radius: var(--radius-xl);
         padding: calc(var(--spacing) * 2);
         min-width: 100%;
         cursor: pointer;
         transition-duration: 75ms;
     }
     .button:hover {
-        background-color: var(--color-amber-500);
+        background-color: var(--color-orange-500);
     }
     .link {
         color: var(--color-cyan-800);

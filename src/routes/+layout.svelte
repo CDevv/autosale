@@ -14,13 +14,17 @@
 
 <div id="top">
     <Header />
-    <div class="ml-60 mr-60 mt-4 mb-4">
+    <div
+        class="ml-60 mr-60 mt-4 mb-4 mx-auto px-4 md:px-6 py-8 relative top-16"
+    >
         {@render children()}
     </div>
 </div>
 
 <style>
     :global(body) {
+        margin: 0;
+        padding: 0;
         background-image: url("/niekverlaan-car-718781_1920.png");
         background-attachment: fixed;
         background-repeat: repeat-y;
